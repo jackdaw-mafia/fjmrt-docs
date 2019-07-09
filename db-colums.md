@@ -31,3 +31,4 @@
 - Quantity
 - Venue
 - Time
+- Venue Photo
