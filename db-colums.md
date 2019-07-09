@@ -30,5 +30,5 @@
 - Drink
 - Quantity
 - Venue
-- Time
-- Venue Photo
+- Timer
+
