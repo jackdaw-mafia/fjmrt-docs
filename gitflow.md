@@ -70,6 +70,8 @@ git commit -m “message”
 
 ```
 
+### Send changes to github
+
 Save remotely to your branch using
 
 ```
@@ -89,13 +91,14 @@ git push origin <your-feature-name>
 This should not need a review. It also makes your work available to other team members if they are on your feature branch.
 Repeat from **Do Your Work** until your feature is complete (same as we are used to with individual work).
 
-### Send changes to github
+### Merge completed feature into dev branch
 
 When complete and ready to merge with dev, it needs one review.
 In github, create new pull request (this is a pull from your computer into github’s remote dev branch).
 Wait for review.
 Reviewer can then delete the branch from github (follow prompt).
-In your own local terminal, also delete the branch.
+
+In your own local terminal:
 
 ```
 
@@ -103,13 +106,22 @@ git checkout dev
 
 ```
 
+This may appear like you haven't successfully pushed your work, so you must pull to get this branch up to date and also to get the updated versions of everyone else's work.
+
+```
+
+git pull
+
+```
+
+Then you can safely delete your branch on your computer.
+
 ```
 
 git branch -d <your-feature-name>
 
 ```
 
-because it is the same as dev for your feature, but you need to make a new branch to then get the most up to date version of the whole dev branch.
 Now you are on dev branch. Repeat from **Individual**.
 
 ### Notes
@@ -124,4 +136,12 @@ git log —help
 
 shows how to find your repo history.
 
-git push from your terminal is the same as git pull from github (I think!)
+```
+
+git reset HEAD <file-name>
+
+```
+
+will unstage the files if you don't want to commit (turns green back to red).
+
+git push from your terminal is the same as git pull from github.
