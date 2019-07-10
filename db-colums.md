@@ -31,4 +31,5 @@
 - Quantity
 - Venue
 - Timer
+- Type (beer, wine, spirit or cocktail - would be best to use emojis if poss)
 
