@@ -6,8 +6,7 @@
 - Pictures
 - Short description
 - Long description
-- Latitude
-- Longitude
+- Postcode
 - Company ID
 - Owner ID
 - Owner Name
