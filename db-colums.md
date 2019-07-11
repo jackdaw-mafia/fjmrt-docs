@@ -1,15 +1,14 @@
 # Venue database
 
-- Venue Name
+- Venue Name 
 - Address
-- Website
 - Pictures
 - Short description
 - Long description
 - Postcode
 - Company ID
 - Owner ID
-- Owner Name
+- Phone Number
 - Monday Opening Hours (leave blank if closed)
 - Tuesday Opening Hours (leave blank if closed)
 - Wednesday Opening Hours (leave blank if closed)
