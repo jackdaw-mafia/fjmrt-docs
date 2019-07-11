@@ -10,6 +10,7 @@
 - * Long description
 - * Owner ID (generate by DB)
 - * Phone Number
+- * Place_id (google ref)
 
 # Coupon database
 
