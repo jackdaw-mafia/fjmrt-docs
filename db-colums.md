@@ -1,12 +1,11 @@
 # Venue database
 - * means essential
-- photo for later
 
 - * Venue Name 
 - * Address
 - * Geometry
 - * Venue Email
-- Pictures
+- * Photo url
 - * Short description
 - * Long description
 - * Owner ID (generate by DB)
