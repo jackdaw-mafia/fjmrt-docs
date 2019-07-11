@@ -12,11 +12,6 @@
 - * Phone Number
 - * Place_id (google ref)
 
-# Coupon database
-
-- Coupon/Deal ID
-- Company ID
-
 # Deal Database?
 
 - Price
