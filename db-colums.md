@@ -1,15 +1,15 @@
 # Venue database
 
--* Venue Name 
--* Address
--* Geometry
--* Venue Email
+- * Venue Name 
+- * Address
+- * Geometry
+- * Venue Email
 - Pictures
--* Short description
--* Long description
+- * Short description
+- * Long description
 - Postcode
--* Owner ID (generate by DB)
--* Phone Number
+- * Owner ID (generate by DB)
+- * Phone Number
 
 # Coupon database
 
