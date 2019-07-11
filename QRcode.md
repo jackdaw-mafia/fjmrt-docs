@@ -4,7 +4,11 @@ https://www.npmjs.com/package/react-native-qrcode
 
 1. npm i react-native-qrcode
 2. insert the following onto page: 
-```<QRCode
+
+``` 
+import QRCode from 'react-native-qrcode';
+
+<QRCode
           value={this.state.text}
           size={200}
           bgColor='purple'
