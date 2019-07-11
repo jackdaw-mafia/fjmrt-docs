@@ -1,4 +1,6 @@
 # Venue database
+- * means essential
+- photo for later
 
 - * Venue Name 
 - * Address
@@ -7,7 +9,6 @@
 - Pictures
 - * Short description
 - * Long description
-- Postcode
 - * Owner ID (generate by DB)
 - * Phone Number
 
