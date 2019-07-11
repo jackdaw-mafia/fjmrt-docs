@@ -1,21 +1,15 @@
 # Venue database
 
-- Venue Name 
-- Address
+-* Venue Name 
+-* Address
+-* Geometry
+-* Venue Email
 - Pictures
-- Short description
-- Long description
+-* Short description
+-* Long description
 - Postcode
-- Company ID
-- Owner ID
-- Phone Number
-- Monday Opening Hours (leave blank if closed)
-- Tuesday Opening Hours (leave blank if closed)
-- Wednesday Opening Hours (leave blank if closed)
-- Thursday Opening Hours (leave blank if closed)
-- Friday Opening Hour (leave blank if closed)
-- Saturday Opening Hour (leave blank if closed)
-- Sunday Opening Hour (leave blank if closed)
+-* Owner ID (generate by DB)
+-* Phone Number
 
 # Coupon database
 
