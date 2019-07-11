@@ -27,7 +27,7 @@
 - Price
 - Drink
 - Quantity
-- Venue
-- Timer
+- Venue ID (relational)
+- Duration
 - Type (beer, wine, spirit or cocktail - would be best to use emojis if poss)
 
