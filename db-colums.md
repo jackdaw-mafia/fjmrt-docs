@@ -1,17 +1,16 @@
 # Venue database
-- * means essential
 
-- * Venue Name 
-- * Address
+- * name 
+- * address
 - * lng (float number)
 - * lat (float number)
-- * Venue Email
-- * Photo url
-- * Short description
-- * Long description
-- * Owner ID (generate by DB)
-- * Phone Number
-- * Place_id (google ref)
+- * email
+- * photo_uri
+- * short_des
+- * long_des
+- * Oowner_id (generate by DB)
+- * phone_number
+- * place_id (google ref)
 
 # Deal Database?
 
