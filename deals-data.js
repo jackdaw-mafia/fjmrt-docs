@@ -1,4 +1,4 @@
-export const dealsObj = {
+dealsObj = {
   dealsArr: [
     {
       price: "£5",
