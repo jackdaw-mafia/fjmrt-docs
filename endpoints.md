@@ -4,11 +4,15 @@
 
 Business owners can see their own details.
 
-## 2) api/owners/:owner_id - POST
+## 2) api/owners - POST
 
 Business details posted to database by owner.
 
-## 3) api/owners/:owner_id/offer - POST
+## 2.5) api/owners/:owner_id - PATCH
+
+Business owner can update their information.
+
+## 3) api/owners/:owner_id - POST
 
 New deal is posted by the owner and sent out to app users.
 
@@ -20,7 +24,7 @@ Shows list of most recent/active offers.
 
 User gets venue details and most recent offers when clicking on offer.
 
-## 6) api/owners/:owner_id - PATCH
+## 6) api/owners/:owner_id/:offer_id - PATCH
 
 When timer on deal runs out, PATCH request sent to change deal from: active: true to active: false.
 
