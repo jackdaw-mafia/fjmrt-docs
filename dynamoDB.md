@@ -4,6 +4,8 @@ Call the SDK moduke and then use the following commands in the relevant function
 
 General resource link here: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html
 
+[Intro Video](https://www.youtube.com/watch?v=RLxWobyd2Tc)
+
 ---Core---
 
 #### CRUD
