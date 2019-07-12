@@ -12,7 +12,7 @@ Business details posted to database by owner.
 
 Business owner can update their information.
 
-## 3) api/owners/:owner_id - POST
+## 3) api/offers - POST
 
 New deal is posted by the owner and sent out to app users.
 
