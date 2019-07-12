@@ -2,4 +2,5 @@
 1. Google Sign-In
 2. Facebook Sign-In?
 3. Destructuring
-4. Change styled-components to react native styling or visa verse (if using react native styling then make breakdown objects for each component to make it more readable, destructure when applying styles inline)
+4. Change styled-components to react native styling or visa verse (if using react native styling then make breakdown objects 
+for each component to make it more readable, destructure when applying styles inline)
