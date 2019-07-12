@@ -4,7 +4,7 @@ Call the SDK moduke and then use the following commands in the relevant function
 
 General resource link here: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html
 
-
+---Core---
 
 #### CRUD
 
@@ -21,9 +21,13 @@ General resource link here: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/
 
 [Query](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
 
+---Non-Core---
+
 #### Disables Deal/Coupon
 
 [Update Time To Live](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#updateTimeToLive-property) <-- to look at implementing once we have basic functionality
+
+---No-Go---
 
 #### Tagging
 
