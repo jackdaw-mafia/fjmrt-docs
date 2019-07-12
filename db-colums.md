@@ -1,24 +1,30 @@
 # Venue database
-
-- * name 
-- * address
-- * lng (float number)
-- * lat (float number)
-- * email
-- * photo_uri
-- * title
-- * description
-- * Oowner_id (generate by DB)
-- * phone_number
-- * place_id (google ref)
+- id
+- data_type
+- name 
+- address
+- lng (float number)
+- lat (float number)
+- email
+- photo_uri
+- title
+- description
+- Oowner_id (generate by DB)
+- phone_number
+- place_id (google ref)
 
 # Deal Database?
-
-- Price
-- Drink
+- id (relational)
+- createdAt
+- updatedAt
+- duration
+- data_type
+- price
+- drink
 - Quantity
-- Venue ID (relational)
-- Duration
 - Type (beer, wine, spirit or cocktail - would be best to use emojis if poss)
-- Deal ID     
+- coupon_id
+- active
+
+
 
