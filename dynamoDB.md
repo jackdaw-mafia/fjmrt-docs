@@ -1,6 +1,6 @@
 ### JS commands for Dynamo DB
 
-1) call the SDK moduke and then use the following commands in the relevant functions:
+Call the SDK moduke and then use the following commands in the relevant functions:
 
 General resource link here: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html
 
@@ -11,7 +11,7 @@ This is global secondary index which costs, we need to use local secondary index
 
 [AWS - global secondary index](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#updateTable-property)
 
-[AWS - scan secondary index] (https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#scan-property)
+[AWS - scan secondary index](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#scan-property)
 
 #### CRUD
 
