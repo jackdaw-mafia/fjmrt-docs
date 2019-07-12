@@ -6,8 +6,7 @@
 - * lat (float number)
 - * email
 - * photo_uri
-- * short_des
-- * long_des
+- * description
 - * Oowner_id (generate by DB)
 - * phone_number
 - * place_id (google ref)
