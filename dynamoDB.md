@@ -21,6 +21,10 @@ General resource link here: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/
 
 [Query](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
 
+#### Using DynamoDB locally
+
+[Steps](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html)
+
 ---Non-Core---
 
 #### Disables Deal/Coupon
