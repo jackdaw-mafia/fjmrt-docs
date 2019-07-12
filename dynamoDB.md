@@ -9,9 +9,9 @@ General resource link here: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/
 
 This is global secondary index which costs, we need to use local secondary indexes:
 
-[AWS - global secondary index](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#updateTable-property)
+[Global secondary index](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#updateTable-property)
 
-[AWS - scan secondary index](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#scan-property)
+[Scan secondary index](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#scan-property)
 
 #### CRUD
 
@@ -25,7 +25,7 @@ This is global secondary index which costs, we need to use local secondary index
 
 #### Tagging
 
-[AWS - what is tagging?] (https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#listTagsOfResource-property)
+[What is tagging?](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#listTagsOfResource-property)
 
 #### Methods
 
