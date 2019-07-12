@@ -3,7 +3,8 @@
 
 - * Venue Name 
 - * Address
-- * Geometry
+- * longititude
+- * langititude
 - * Venue Email
 - * Photo url
 - * Short description
