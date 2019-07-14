@@ -1,22 +1,28 @@
 # Endpoints
 
-## 1) api/owners/:owner_id - GET
+\* denotes completed endpoints as shown on the api route.
+
+## 1) api - GET \*
+
+Shows all available endpoints.
+
+## 1) api/owners/:id - GET
 
 Business owners can see their own details.
 
-## 2) api/owners - POST
+## 2) api/owners - POST \*
 
 Business details posted to database by owner.
 
-## 2.5) api/owners/:owner_id - PATCH
+## 2.5) api/owners/:id - PATCH \*
 
 Business owner can update their information.
 
-## 3) api/offers - POST
+## 3) api/offers - POST \*
 
 New deal is posted by the owner and sent out to app users.
 
-## 4) api/offers - GET
+## 4) api/offers - GET \*
 
 Shows list of most recent/active offers.
 
@@ -28,7 +34,7 @@ User gets venue details and most recent offers when clicking on offer.
 
 When timer on deal runs out, PATCH request sent to change deal from: active: true to active: false.
 
-## 7) api/owners/:owner_id - DELETE
+## 7) api/owners/:id - DELETE \*
 
 Owner can delete themselves from the site.
 
