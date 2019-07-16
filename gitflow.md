@@ -76,20 +76,12 @@ Save remotely to your branch using
 
 ```
 
-git push
-
-```
-
-or
-
-```
-
 git push origin <your-feature-name>
 
 ```
 
 This should not need a review. It also makes your work available to other team members if they are on your feature branch.
-Repeat from **Do Your Work** until your feature is complete (same as we are used to with individual work).
+Repeat from **Do Your Work** until your feature is complete or you wish to merge with the dev branch (same as we are used to with individual work).
 
 ### Merge completed feature into dev branch
 
@@ -123,6 +115,14 @@ git branch -d <your-feature-name>
 ```
 
 Now you are on dev branch. Repeat from **Individual**.
+
+If you wish to continue working on your feature, simply
+
+```
+git pull
+```
+
+immediately after your branch has been deleted from github, but remember to push to your branch later so it will be created again on github.
 
 ### Notes
 
