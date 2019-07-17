@@ -15,13 +15,14 @@ GET
 
 - 200 repsonses: contains keys, to be an object/array, to eql/equal, asc/desc, other sort criteria, 
 - 404 - valid value (integer/string) passed, but does not exist
+- 405 - where the endpoint doesn't accept this request
 - 400 - invalid value passed
 
 POST
 
 - 201 responses: to equal, to be an object/array, to contain keys, 
 - 404 - valid value (integer/string) passed, (eg offer linked to a non-existent profile)
-- 405 - not sure what this handles?
+- 405 - where the endpoint doesn't accept this request
 - 400 - invalid keys passed (not all included) - when it does not include alll the valid keys for th epost request
 - 400 - invalid offer/profile key
 
@@ -31,14 +32,14 @@ PATCH/PUT
 - 400 response: invalid profile id/offer id
 - 400 - invalid keys passed (not all included) - when it does not include alll the valid keys for th epost request
 - 404 - valid value (integer/string) passed, (eg offer linked to a non-existent profile)
-- 405 - not sure what this handles?
+- 405 - where the endpoint doesn't accept this request
 
 DELETE
 
 - 204 response --> confirms request deleted
 - 400 eg string rather than integer -> invalid profile id (not sure we want to delete offers)
 - 404 correct value but out of range
-- 405 what is this
+- 405 - where the endpoint doesn't accept this request
 
 
 
